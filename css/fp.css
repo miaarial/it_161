@@ -1,0 +1,173 @@
+/* BIG Website */
+
+html {
+    background-color:#ffff; 
+    
+}
+
+main {
+     /* background-color:#ffff; */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c3e8a4+0,afce92+0,afce92+0,ffffff+71,ffffff+71 */
+background: rgb(195,232,164); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(195,232,164,1) 0%, rgba(175,206,146,1) 0%, rgba(175,206,146,1) 0%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 71%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(195,232,164,1) 0%,rgba(175,206,146,1) 0%,rgba(175,206,146,1) 0%,rgba(255,255,255,1) 71%,rgba(255,255,255,1) 71%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(195,232,164,1) 0%,rgba(175,206,146,1) 0%,rgba(175,206,146,1) 0%,rgba(255,255,255,1) 71%,rgba(255,255,255,1) 71%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3e8a4', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+    width:100%;
+    margin:auto;
+    border:1px solid black;
+}
+h1 {
+    text-align:center;
+    margin:20px;
+    font-size:5em;
+    color:#ffff;
+    font-family: 'Amatic SC', cursive;
+    
+}
+h1 a {
+    color:#460000;
+    text-decoration: none;
+}
+
+a {
+    color:#50ad69;
+    text-decoration:none;
+}
+
+p {
+    font-size:1.1em;
+    font-family: 'Spartan', sans-serif;
+}
+
+
+section {
+    float:left;
+    width:60%;
+}
+
+aside {
+    float:right;
+    width:31%;
+    padding:1em;
+    font-family: 'Spartan', sans-serif;
+    color:#460000;
+}
+
+
+footer {
+    padding:1em;
+    background-color:#ffff;
+    text-align:center;
+    clear:both;
+    color:#460000;
+}
+
+img {
+    margin:35px;
+    width:99%;
+}
+
+h3, h2.subheader {
+    font-size:2em
+}
+
+
+
+li {
+    font-size:1.25em;
+}
+
+/* TABLET */
+
+@media all and (max-width:800px) {
+
+    body {
+        margin:25px;
+    }
+main {
+    width:99%;
+    
+    }
+    
+section {
+        float:none;
+        width:auto;
+        font-size:0.70em;
+    }
+h1 {
+        font-size:5em;
+        margin:0;
+    }
+    
+ 
+    .listnavicon .icon {
+        font-size:2em;
+        
+    }
+    
+    img {
+        width:97%; 
+        margin:10px;
+        
+    }
+    
+aside {
+        float:none;
+        width:auto;
+        font-size:0.70em;
+    }
+
+footer {
+        font-size:0.50em;
+    }
+    
+    
+}
+
+/* PHONE */
+@media all and (max-width:650px) {
+
+    body {
+        margin:25px;
+    }
+main {
+    width:99%;
+    
+    }
+    
+section {
+        float:none;
+        width:auto;
+        font-size:0.70em;
+    }
+h1 {
+        font-size:3em;
+        margin:0;
+    }
+    
+ 
+    .listnavicon .icon {
+        font-size:1em;
+        
+    }
+    
+    img {
+        width:97%; 
+        margin:10px;
+        
+    }
+    
+aside {
+        float:none;
+        width:auto;
+        font-size:0.70em;
+    }
+
+footer {
+        font-size:0.50em;
+    }
+    
+    
+}
